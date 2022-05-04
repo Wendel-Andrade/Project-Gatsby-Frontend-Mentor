@@ -8,9 +8,7 @@ const SectionArea = styled.section`
    align-items: center;
    margin: 0;
    padding: 0;
-/* background-color: ${({ theme }) => theme.colors.background.main}; */
-background-color: greenyellow;
-
+ background-color: ${({ theme }) => theme.colors.background.main}; 
 `
 
 const Section = ({ children, className }) => {

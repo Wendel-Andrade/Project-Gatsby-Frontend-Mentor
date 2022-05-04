@@ -1,9 +1,9 @@
 module.exports = {
    siteMetadata: {
       siteUrl: "https://www.yourdomain.tld",
-      title: "Template MGCodes wbsite Gatsby V1.0",
-      description: "Project description",
-      author: "Marcial Garcia"
+      title: "Space tourism | Frontend Mentor ",
+      description: "Space tourism multi-page website | Challenge Frontend Mentor",
+      author: "Wendel Andrade"
    },
    plugins: [
       "gatsby-plugin-styled-components",
@@ -36,21 +36,21 @@ module.exports = {
          resolve: `gatsby-plugin-manifest`,
          icons: [
            {
-             "src": "static/assets/favicon.png",
+             "src": "static/assets/favicon.svg",
              "sizes": "512x512",
              "type": "image/png",
              "purpose": "any maskable"
            }
          ],
          options: {
-           name: `Project name`,
-           short_name: `shortname`,
+           name: `Gatsby-project | Frontend Mentor`,
+           short_name: `Gatsby-project`,
            lang: `pt-br`,
            start_url: `/`,
-           background_color: `#FFFFFF`,
-           theme_color: `#0000FF`,
+           background_color: `#0B0D17`,
+           theme_color: `#D0D6F9`,
            display: `minimal-ui`,
-           icon: `static/assets/favicon.png`, // 512x512px.
+           icon: `static/assets/favicon.svg`, // 512x512px.
            icon_options: {
              purpose: `any maskable`
            }

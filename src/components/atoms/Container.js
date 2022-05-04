@@ -10,34 +10,16 @@ const ContainerArea = styled.div`
    align-items: center;
    margin: 0 auto;
    padding: 0;
-background-color: greenyellow;
+background-color: transparent;
 
-   ${media.greaterThan("sm")`
-      max-width: ${props => props.theme.maxWidth.sm};
-      
-background-color: black;
-   `}
 
    ${media.greaterThan("md")`
       max-width: ${({ theme }) => theme.maxWidth.md};
-background-color: blue;
-   `}
-
-   ${media.greaterThan("lg")`
-      max-width: ${({ theme }) => theme.maxWidth.lg};
-background-color: green;
    `}
 
    ${media.greaterThan("xl")`
       max-width: ${({ theme }) => theme.maxWidth.xl};
-background-color: purple;
    `}
-
-   ${media.greaterThan("xxl")`
-      max-width: ${({ theme }) => theme.maxWidth.xxl};
-background-color: yellow;
-   `}
-
 `
 
 const Container = ({ children, className }) => {

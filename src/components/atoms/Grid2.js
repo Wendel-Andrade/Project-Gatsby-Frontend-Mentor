@@ -12,7 +12,7 @@ const GridWrapper = styled.div`
    padding: 0;
    margin: 20px 0;
 
-   ${media.greaterThan("md")`
+   ${media.greaterThan("xl")` 
       flex-direction: row;
       justify-content: space-around;
    `}

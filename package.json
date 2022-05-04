@@ -1,8 +1,8 @@
 {
-  "name": "template-mgcodes-wbsite-gatsby-v1.0",
+  "name": "Gatsby-project",
   "version": "1.0.0",
   "private": true,
-  "description": "Template MGCodes wbsite Gatsby V1.0",
+  "description": "Challenge from Frontend Mentor | Space tourism multi-page website",
   "keywords": [
     "gatsby"
   ],
@@ -14,6 +14,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.5.2",
     "babel-plugin-styled-components": "^1.13.3",
     "gatsby": "^4.1.0",
     "gatsby-image": "^3.11.0",
@@ -34,6 +35,9 @@
     "react-typography": "^0.16.20",
     "styled-components": "^5.3.3",
     "styled-media-query": "^2.1.2",
+    "typeface-barlow": "^1.1.13",
+    "typeface-barlow-condensed": "^1.1.13",
+    "typeface-bellefair": "^1.1.13",
     "typography": "^0.16.21"
   }
 }
